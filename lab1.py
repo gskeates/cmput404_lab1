@@ -1,5 +1,8 @@
 import requests
 
-print(requests.__version__)
+# print(requests.__version__)
 
-r = requests.get('http://wwww.google.com')
+r1 = requests.get('http://google.com')
+
+r2 = requests.get('https://raw.githubusercontent.com/gskeates/cmput404_lab1/master/lab1.py')
+print(r2.text)
